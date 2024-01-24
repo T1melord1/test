@@ -8,7 +8,7 @@
             print(this.y, y, "y");
         }
         public void print(int start, int end, String axisName){
-            while(this.y < y){
+            while(start < end){
                 System.out.println("Двигаемся по оси " + axisName + " от " + start + " до " + (++start));
             }
         }
